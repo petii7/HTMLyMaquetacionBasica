@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SECCIÓN 1 */
+
+#pantalla1 {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+
+.home {
+    margin-top: 100px;
+    color: rgb(0, 0, 0);
+}
+
+.home h1 {
+    font-size: 80px;
+    font-family: "Play", sans-serif;
+}
+
+.home p {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+/* SECCIÓN 2 */
+
+#pantalla2 {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(43, 43, 43);
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.quienesSomos,
+.queHacemos {
+    padding: 50px 100px 0px 100px;
+    color: white;
+    text-align: center;
+}
+
+.quienesSomos h2,
+.queHacemos h2 {
+    margin-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.quienesSomos p,
+.queHacemos p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 1.8rem;
+}
+
+/* SECCIÓN 3 */
+
+#pantalla3 {
+    margin-top: 50px;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(27, 27, 27);
+
+}
+
+.servicios {
+    padding: 50px 150px 0px 150px;
+    color: white;
+}
+
+.servicios h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.servicios dt {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.servicios dd {
+    font-size: 15px;
+    padding-left: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* SECCIÓN 4 */
+
+#pantalla4 {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(43, 43, 43);
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.opiniones {
+    margin-top: 50px;
+    color: white;
+}
+
+
+.opiniones h2 {
+    padding-top: 60px;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.opiniones h4 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.opiniones p {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.opiniones table {
+    width: 100%;
+    border: 0px;
+}
+
+.opiniones img {
+    padding-top: 55px;
+}
+
+.opiniones table {
+    text-align: left;
+}
+
+
+/* SECCION 5 */
+
+#pantalla5{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(27, 27, 27);
+}
+
+.tablaTecnologias {
+    margin-top: 50px;
+    padding-top: 100px;
+}
+
+table {
+    border: 2px solid white;
+    width: 400px;
+    height: 500px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table td {
+    padding: 20px;
+    vertical-align: middle;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(43, 43, 43);
+    padding: 50px 150px 0px 150px;
+}
+
+.columna1footer,
+.columna2footer,
+.columna3footer {
+    width: 33%;
+    float: left;
+    color: white;
+}
+
+.columna3footer {
+    text-align: right;
+}
+
+.empresaFooter {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contactoFooter {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.indicefooter {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.correoFooter {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(164, 172, 233);
+    line-height: 2;
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+form {
+    font-family: 'Montserrat', sans-serif;
+}
+
+form p{
+    line-height: 40px;
+}
